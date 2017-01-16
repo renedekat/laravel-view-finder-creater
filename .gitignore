@@ -3,6 +3,5 @@ composer.lock
 docs
 vendor
 .env
-.DS_Store
 _ide_helper.php
 .idea/*
