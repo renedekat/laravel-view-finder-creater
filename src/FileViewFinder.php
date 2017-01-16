@@ -2,9 +2,9 @@
 
 namespace ReneDeKat\LaravelViewFileFinder;
 
-use Illuminate\View\ViewFinderInterface;
 use InvalidArgumentException;
 use Illuminate\Filesystem\Filesystem;
+use Illuminate\View\ViewFinderInterface;
 
 class FileViewFinder implements ViewFinderInterface
 {
@@ -135,7 +135,7 @@ class FileViewFinder implements ViewFinderInterface
             }
         }
 
-        if (!isset($path)) {
+        if (! isset($path)) {
             throw new InvalidArgumentException("View [$name] not found.");
         }
 
@@ -287,11 +287,11 @@ class FileViewFinder implements ViewFinderInterface
      */
     protected function createMissingView($name, $paths, $path): string
     {
-        $fsName = str_replace(".", '/', $name);
+        $fsName = str_replace('.', '/', $name);
         $viewFilename = "{$path}{$fsName}.blade.php";
         $viewFileDirectory = dirname($viewFilename);
 
-        if (!file_exists($viewFileDirectory)) {
+        if (! file_exists($viewFileDirectory)) {
             mkdir($viewFileDirectory, 0755, true);
         }
 

@@ -2,16 +2,15 @@
 
 namespace ReneDeKat\LaravelViewFileFinder;
 
+use Illuminate\View\Factory;
 use Illuminate\View\Engines\PhpEngine;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Engines\CompilerEngine;
 use Illuminate\View\Engines\EngineResolver;
 use Illuminate\View\Compilers\BladeCompiler;
-use Illuminate\View\Factory;
 
 class ViewServiceProvider extends ServiceProvider
 {
-
     /**
      * Bootstrap the application services.
      */
