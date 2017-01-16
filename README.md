@@ -1,3 +1,6 @@
+
+[![StyleCI](https://styleci.io/repos/79127109/shield?branch=master)](https://styleci.io/repos/79127109)
+
 # Laravel View Finder that creates missing view files
 
 
