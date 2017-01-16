@@ -295,7 +295,7 @@ class FileViewFinder implements ViewFinderInterface
             mkdir($viewFileDirectory, 0755, true);
         }
 
-        \File::copy(asset('pages/missing.blade.php'), $viewFilename);
+        \File::copy(resource_path('/assets/pages/missing.blade.php'), $viewFilename);
 
         return $this->findInPaths($name, $paths);
     }

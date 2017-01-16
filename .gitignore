@@ -1,0 +1,63 @@
+# Composer #
+############
+vendor/*
+
+# Bin #
+############
+bin/phpunit
+bin/pdepend
+bin/phpmd
+
+
+# IDE #
+#######
+.idea
+.project
+.settings
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# Logs and application generated #
+##################################
+*.log
+*.spc
+*.tpl.php
+*.tpl.cache.php
+cachegrind.out.*
+log-*.php
+ngrok
+xcache
+application/floodpools/*
+hooverdata/*
+
+# Environment config files #
+environment.php
+phpunit.xml
+.env
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sass cache #
+##############
+.sass-cache
+
+# Node Modules #
+################
+node_modules
+
+# APIGen (PHP Doc) #
+####################
+www/docs
+.vagrant/
+.terraform/
+.vimrc
+

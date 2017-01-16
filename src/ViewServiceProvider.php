@@ -18,8 +18,8 @@ class ViewServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../assets/missing.blade.php' => asset('/pages/missing.blade.php'),
-        ], 'config');
+            __DIR__.'/../assets/missing.blade.php' => resource_path('/assets/pages/missing.blade.php'),
+        ], 'assets');
     }
 
     /**
