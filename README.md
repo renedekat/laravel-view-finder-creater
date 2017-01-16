@@ -1,5 +1,6 @@
 
 [![StyleCI](https://styleci.io/repos/79127109/shield?branch=master)](https://styleci.io/repos/79127109)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f/big.png)](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f)
 
 # Laravel View Finder that creates missing view files
 
