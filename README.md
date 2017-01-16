@@ -4,7 +4,9 @@
 [![License](https://poser.pugx.org/renedekat/laravel-view-finder-creater/license)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
 [![composer.lock](https://poser.pugx.org/renedekat/laravel-view-finder-creater/composerlock)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
 
+[![Build Status](https://scrutinizer-ci.com/g/renedekat/laravel-view-finder-creater/badges/build.png?b=master)](https://scrutinizer-ci.com/g/renedekat/laravel-view-finder-creater/build-status/master)
 [![StyleCI](https://styleci.io/repos/79127109/shield?branch=master)](https://styleci.io/repos/79127109)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/renedekat/laravel-view-finder-creater/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/renedekat/laravel-view-finder-creater/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f/mini.png)](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f)
 
 # Laravel View Finder that creates missing view files
