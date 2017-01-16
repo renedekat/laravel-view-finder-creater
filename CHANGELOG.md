@@ -1,13 +1,13 @@
 # Changelog
 
-All Notable changes to `:package_name` will be documented in this file.
+All Notable changes to `laravel-view-finder-creater` will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## NEXT - YYYY-MM-DD
+## NEXT - 2017-01-16
 
 ### Added
-- Nothing
+- Instructions for installation in local development
 
 ### Deprecated
 - Nothing
