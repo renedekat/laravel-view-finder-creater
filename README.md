@@ -24,6 +24,30 @@ Replace the default ViewServiceProvider
 	//Illuminate\View\ViewServiceProvider::class,
 	ReneDeKat\LaravelViewFileFinder\ViewServiceProvider::class,
 ];
+``` 
+
+Or, if you only want to use it locally (handy during development)
+
+```php
+// config/app.php
+'providers' => [
+	...
+	//Illuminate\View\ViewServiceProvider::class,
+];
+```
+
+```php
+// app/Providers/AppServiceProvider
+public function register()
+{
+    ...
+    if ('local' == $this->app->environment()) {
+        $this->app->register(\ReneDeKat\LaravelViewFileFinder\ViewServiceProvider::class);
+    } else {
+        $this->app->register(\Illuminate\View\ViewServiceProvider::class);
+    }
+    ...
+}
 ```
 
 The missing page template file must be published with this command:
