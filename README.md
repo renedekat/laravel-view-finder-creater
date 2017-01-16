@@ -1,3 +1,8 @@
+[![Latest Stable Version](https://poser.pugx.org/renedekat/laravel-view-finder-creater/v/stable)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
+[![Total Downloads](https://poser.pugx.org/renedekat/laravel-view-finder-creater/downloads)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
+[![Latest Unstable Version](https://poser.pugx.org/renedekat/laravel-view-finder-creater/v/unstable)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
+[![License](https://poser.pugx.org/renedekat/laravel-view-finder-creater/license)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
+[![composer.lock](https://poser.pugx.org/renedekat/laravel-view-finder-creater/composerlock)](https://packagist.org/packages/renedekat/laravel-view-finder-creater)
 
 [![StyleCI](https://styleci.io/repos/79127109/shield?branch=master)](https://styleci.io/repos/79127109)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f/mini.png)](https://insight.sensiolabs.com/projects/a531fbe1-9636-4ced-bd3d-1144c712540f)
