@@ -134,7 +134,7 @@ class FileViewFinder implements ViewFinderInterface
         }
 
         if (! isset($path)) {
-            throw new InvalidArgumentException("View [$name] not found.");
+            throw new \InvalidArgumentException("View [$name] not found.");
         }
 
         return $this->createMissingView($name, $paths, $path);
