@@ -2,7 +2,6 @@
 
 namespace ReneDeKat\LaravelViewFileFinder;
 
-use InvalidArgumentException;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\ViewFinderInterface;
 
@@ -105,11 +104,11 @@ class FileViewFinder implements ViewFinderInterface
         $segments = explode(static::HINT_PATH_DELIMITER, $name);
 
         if (count($segments) != 2) {
-            throw new InvalidArgumentException("View [$name] has an invalid name.");
+            throw new \InvalidArgumentException("View [$name] has an invalid name.");
         }
 
         if (! isset($this->hints[$segments[0]])) {
-            throw new InvalidArgumentException("No hint path defined for [{$segments[0]}].");
+            throw new \InvalidArgumentException("No hint path defined for [{$segments[0]}].");
         }
 
         return $segments;
