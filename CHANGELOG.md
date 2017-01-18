@@ -9,6 +9,9 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### Added
 - Laravel 5.4 support
 
+### Removed
+- Laravel 5.3 support
+
 ## 1.0.4 - 2017-01-16
 
 ### Added
