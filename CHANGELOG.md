@@ -4,6 +4,11 @@ All Notable changes to `laravel-view-finder-creater` will be documented in this 
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 2.0.2 - 2017-01-18
+
+### Fixed
+- Return type :string set which is incompatible with <php7
+
 ## 2.0.1 - 2017-01-18
 
 ### Fixed
