@@ -305,7 +305,7 @@ class FileViewFinder implements ViewFinderInterface
      * @param string $path
      * @return string
      */
-    protected function createMissingView($name, $paths, $path): string
+    protected function createMissingView($name, $paths, $path)
     {
         $fsName = str_replace('.', '/', $name);
         $viewFilename = "{$path}/{$fsName}.blade.php";
