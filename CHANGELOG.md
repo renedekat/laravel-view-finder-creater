@@ -4,7 +4,12 @@ All Notable changes to `laravel-view-finder-creater` will be documented in this 
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 1.0.5 - 2017-01-18
+## 2.0.1 - 2017-01-18
+
+### Fixed
+- ViewServiceProvider code synced with Laravel 5.4 version
+
+## 2.0.0 - 2017-01-18
 
 ### Added
 - Laravel 5.4 support
