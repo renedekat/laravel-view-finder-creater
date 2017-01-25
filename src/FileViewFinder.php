@@ -4,6 +4,7 @@ namespace ReneDeKat\LaravelViewFileFinder;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\View\ViewFinderInterface;
+use InvalidArgumentException;
 
 class FileViewFinder implements ViewFinderInterface
 {
